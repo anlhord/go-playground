@@ -13,7 +13,7 @@ import (
 	"appengine/urlfetch"
 )
 
-const runUrl = "http://127.0.0.1/compile?output=json"
+const runUrl = "http://127.0.0.1:1337/compile?output=json"
 
 func init() {
 	http.HandleFunc("/compile", compile)
