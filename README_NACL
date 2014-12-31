@@ -1,0 +1,92 @@
+ ∘  4544  wget -c https://developers.google.com/native-client/dev/sdk/download
+ 4545  ls
+ 4546  git status 
+ 4547  rm download 
+ 4548  ls
+ 4549  git status 
+ 4550  git add README
+ 4551  git commit -a
+ 4552  ls
+ 4553  git add run.sh 
+ 4554  git status 
+ 4555  git commit -a
+ 4556  git status 
+ 4557  git clean -x -f -d
+ 4558  ping 8.8.8.8
+ 4559  cd ..
+ 4560  ls
+ 4561  cd nacl_sdk/
+ 4562  ls
+ 4563  cd ..
+ 4564  ls
+ 4565  ln -s /opt/nacl_sdk ~/Desktop/GOLANG/nacl_sdk/
+ 4566  ls /opt/
+ 4567  ln -S /opt/nacl_sdk ~/Desktop/GOLANG/nacl_sdk/
+ 4568  ln -s /opt/nacl_sdk ~/Desktop/GOLANG/nacl_sdk/
+ 4569  rm nacl_sdk/
+ 4570  rm nacl_sdk/nacl_sdk 
+ 4571  ln -s  ~/Desktop/GOLANG/nacl_sdk/ /opt/nacl_sdk
+ 4572  sudo ln -s  ~/Desktop/GOLANG/nacl_sdk/ /opt/nacl_sdk
+ 4573  cd /opt/nacl_sdk
+ 4574  ls
+ 4575  sudo ./nacksdk install
+ 4576  sudo -i
+ 4577  go_nacl_386_exec
+ 4578  ls $GOPATH/bin
+ 4579  sudo -i
+ 4580  ln -nfs /opt/nacl_sdk/pepper_39/tools/sel_ldr_x86_64 $GOPATH/bin/sel_ldr_x86_64
+ 4581  ln -nfs $GOROOT/misc/nacl/go_nacl_amd64p32_exec $GOPATH/bin/go_nacl_amd64p32_exec
+ 4582  go_nacl_386_exec
+ 4583  which go_nacl_386_exec
+ 4584  cd $GOPATH/bin/
+ 4585  ls
+ 4586  rm sel_ldr_x86_64 
+ 4587  ls
+ 4588  chmod +x go_nacl_amd64p32_exec 
+ 4589  go_nacl_amd64p32_exec
+ 4590  ln -nfs /opt/nacl_sdk/pepper_35/tools/sel_ldr_x86_64 $GOPATH/bin/sel_ldr_x86_64
+ 4591  ls
+ 4592  rm sel_ldr_x86_64 
+ 4593  ls /opt/nacl_sdk/pepper_39
+ 4594  sudo -i
+ 4595  ln -nfs /opt/nacl_sdk/pepper_35/tools/sel_ldr_x86_64 $GOPATH/bin/sel_ldr_x86_64
+ 4596  ls
+ 4597  rm sel_ldr_x86_64 
+ 4598  ln -nfs /home/m/Desktop/GOLANG/nacl_sdk/pepper_35/tools/sel_ldr_x86_64 $GOPATH/bin/sel_ldr_x86_64
+ 4599  ls
+ 4600  rm sel_ldr_x86_64 
+ 4601  ln -nfs /home/m/Desktop/GOLANG/nacl_sdk/pepper_39/tools/sel_ldr_x86_64 $GOPATH/bin/sel_ldr_x86_64
+ 4602  ls
+ 4603  go_nacl_386_exec
+ 4604  ls /home/m/Desktop/GOLANG/nacl_sdk/pepper_39/
+ 4605  cd ..
+ 4606  ls
+ 4607  cd nacl_sdk/
+ 4608  ls
+ 4609  sudo chown -R m:m .
+ 4610  ls
+ 4611  ls /home/m/Desktop/GOLANG/nacl_sdk/pepper_39/
+ 4612  ln -nfs /home/m/Desktop/GOLANG/nacl_sdk/pepper_39/tools/sel_ldr_x86_64 $GOPATH/bin/sel_ldr_x86_64
+ 4613  cd ..
+ 4614  $GOPATH/bin/sel_ldr_x86_64
+ 4615  go_nacl_386_exec
+ 4616  which go_nacl_386_exec
+ 4617  ls
+ 4618  ls gopath/bin/
+ 4619  chmod +x gopath/bin/go_nacl_amd64p32_exec gopath/bin/sel_ldr_x86_64
+ 4620  go_nacl_386_exec
+ 4621  which sel_ldr_x86_64
+ 4622  go_nacl_386_exec
+ 4623  which go_nacl_386_exec
+ 4624  go_nacl_386_exec
+ 4625  less JavaScript:
+ 4626  go_nacl_386_exec
+ 4627  which go_nacl_386_exec
+ 4628  ls gopath/bin/
+ 4629  lsof
+ 4630  ls
+ 4631  ls gopath/bin/
+ 4632  ./gopath/bin/go_nacl_amd64p32_exec 
+ 4633  cd $GOROOT/src
+ 4634  env GOARCH=amd64p32 ./nacltest.bash
+
